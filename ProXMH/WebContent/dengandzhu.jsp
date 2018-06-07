@@ -1,6 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
+<%@ page language="java" contentType="text/html; charset="utf-8"
     pageEncoding="utf-8"%>
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -23,7 +24,7 @@
 						<form action="" method="post">
 							
 							<div class="form_text_ipt">
-								<input name="account" type="text" placeholder="手机号/邮箱" value=${Username}>
+								<input name="account" type="text" placeholder="手机号/邮箱" value="${Username}">
 							</div>
 							<div class="ececk_warning"><span>账号不能为空</span></div>
 							<div class="form_text_ipt">

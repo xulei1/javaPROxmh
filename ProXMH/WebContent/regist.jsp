@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -21,11 +23,11 @@
 						<form action="user/addf" method="post">
 							
 							<div class="form_text_ipt">
-								<input name="username" type="text" placeholder="手机号/邮箱" value=>
+								<input name="username" type="text" placeholder="手机号/邮箱" value="${UserName}">
 							</div>
 							<div class="ececk_warning"><span>账号不能为空</span></div>
 							<div class="form_text_ipt">
-								<input name="password" type="password" placeholder="密码">
+								<input name="password" type="password" placeholder="密码" value="${pawd}">
 							</div>
 							<div class="ececk_warning"><span>密码不能为空</span></div>
 							<div class="form_text_ipt">
@@ -38,7 +40,7 @@
 							<div class="ececk_warning"><span>请输入正确的验证码</span></div>
 							
 							<div class="form_btn">
-								<button type="button">注册</button>
+								<button type="submit" value="提交">注册</button>
 							</div>
 							<div class="form_reg_btn">
 								<span>已有帐号？</span><a href="demo.html">马上登录</a>
