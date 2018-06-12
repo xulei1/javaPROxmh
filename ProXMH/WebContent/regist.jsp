@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
+<%
+	pageContext.setAttribute("APP_PATH", request.getContextPath());
+%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
@@ -20,14 +24,14 @@
 						<div class="login_title">
 							注册
 						</div>
-						<form action="user/addf" method="post">
+						<form action="${APP_PATH}/user/addf" method="post">
 							
 							<div class="form_text_ipt">
-								<input name="username" type="text" placeholder="手机号/邮箱" value="${UserName}">
+								<input name="UserName" type="text" placeholder="手机号/邮箱" value="${UserName}">
 							</div>
 							<div class="ececk_warning"><span>账号不能为空</span></div>
 							<div class="form_text_ipt">
-								<input name="password" type="password" placeholder="密码" value="${pawd}">
+								<input name="pawd" type="password" placeholder="密码" value="${pawd}">
 							</div>
 							<div class="ececk_warning"><span>密码不能为空</span></div>
 							<div class="form_text_ipt">
@@ -43,7 +47,7 @@
 								<button type="submit" value="提交">注册</button>
 							</div>
 							<div class="form_reg_btn">
-								<span>已有帐号？</span><a href="demo.html">马上登录</a>
+								<span>已有帐号？</span><a href="dengandzhu.jsp">马上登录</a>
 							</div>
 						</form>
 						<div class="other_login">

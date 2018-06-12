@@ -1,4 +1,6 @@
 package login.dao;
+import java.util.List;
+
 import javax.annotation.Resource;
 import org.hibernate.SessionFactory;
 import org.hibernate.Query;
@@ -14,27 +16,22 @@ public class logindaoImpl {
 	@Resource
 	private SessionFactory sessionfactory;
 /* 账号注册 */
-	public void addFirst(String UserName , String pawd) {
-		String sql= "insert into User (UserName,pawd) values (UserName,pawd)";
-		System.out.println("1");
-		Query q =   this.sessionfactory.getCurrentSession().createSQLQuery(sql);
-		System.out.println("11");
-		q.setParameter(0, UserName);
-		q.setParameter(1, pawd);
-		System.out.println("注册成功");
-		q.executeUpdate();
+	public void addUser(User u) {
+		System.out.println(u.getUserName());
+		System.out.println(u.getPawd());
+		this.sessionfactory.getCurrentSession().save(u);
+		System.out.println("u");
 		
 	}
-/* 信息完善 */
-	public void addSecond(String name , String number, String address) {
-		String sql= "insert into User (name,number,address) values (name,number,address)";
-		System.out.println("1");
-		Query q =   this.sessionfactory.getCurrentSession().createSQLQuery(sql);
-		System.out.println("11");
-		q.setParameter(2, name);
-		q.setParameter(3, number);
-		q.setParameter(4, address);
-		System.out.println("信息完善成功");
-		q.executeUpdate();
+
+/*登录验证*/
+	public boolean login(String UserName,String pawd) {
+		String sql = "from User where UserName='"+UserName+"' and pawd='"+pawd+"'";
+		Query q =  this.sessionfactory.getCurrentSession().createQuery(sql);
+		
+		System.out.println("dao1");
+		List list =q.list();
+		return list.size()>0? true:false;
+		
 	}
 }

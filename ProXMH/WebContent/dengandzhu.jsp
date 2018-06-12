@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset="utf-8"
+<%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -21,14 +21,14 @@
 						<div class="login_title">
 							登录
 						</div>
-						<form action="" method="post">
+						<form action="user/shouye" method="post">
 							
 							<div class="form_text_ipt">
-								<input name="account" type="text" placeholder="手机号/邮箱" value="${Username}">
+								<input name="UserName" type="text" placeholder="手机号/邮箱" value="${UserName}">
 							</div>
 							<div class="ececk_warning"><span>账号不能为空</span></div>
 							<div class="form_text_ipt">
-								<input name="password" type="password" placeholder="密码" value="${pawd}">
+								<input name="pawd" type="password" placeholder="密码" value="${pawd}">
 							</div>
 							<div class="ececk_warning"><span>密码不能为空</span></div>
 							<div class="form_check_ipt">
@@ -59,10 +59,10 @@
 	                        
 							</div>
 							<div class="form_btn">
-								 <a href="xinxi.html"><button type="button">登录</button> </a>
+								 <button type="button">登录</button> 
 							</div>
 							<div class="form_reg_btn">
-								<span>还没有帐号？</span><a href="regist.html">马上注册</a>&nbsp;&nbsp;<a href="houtai.html">后台登录</a>
+								<span>还没有帐号？</span><a href="regist.jsp">马上注册</a>&nbsp;&nbsp;<a href="houtai.html">后台登录</a>
 							</div>
 						</form>
 						<div class="other_login">

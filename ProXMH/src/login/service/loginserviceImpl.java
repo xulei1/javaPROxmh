@@ -6,20 +6,22 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import login.dao.logindaoImpl;
+import login.entity.User;
 
 @Service
-@Transactional(readOnly=true)
+
 public class loginserviceImpl {
 
 	
 	@Resource
 	private logindaoImpl logindaoImpl;
-	public void addFirst(String UserName , String pawd) {
-	logindaoImpl.addFirst(UserName, pawd);
+	public void addUser(User u) {
+	logindaoImpl.addUser(u);
 	System.out.println("申请成功");
+	System.out.println("service");
 	}
-	public void addSecond(String name , String number, String address) {
-		logindaoImpl.addSecond(name, number, address);
-		System.out.println("完善信息成功");
+	public boolean login(String UserName,String pawd) {
+		System.out.println("dao2");
+		return logindaoImpl.login(UserName, pawd);
 	}
 }
