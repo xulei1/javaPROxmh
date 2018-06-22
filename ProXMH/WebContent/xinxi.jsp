@@ -57,7 +57,7 @@
 		</dd>
 		<dd>
 			 <h2>就这样！</h2>
-			<div class="btn"><a href="daohang.html"> <input type="submit" value="提交" /></a></div>
+			<div class="btn"><a href="daohang.jsp"> <input type="button" value="提交" /></a></div>
 		</dd>
 	</form>
 </dl>

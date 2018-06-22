@@ -62,7 +62,7 @@
 								 <button type="submit">登录</button> 
 							</div>
 							<div class="form_reg_btn">
-								<span>还没有帐号？</span><a href="regist.jsp">马上注册</a>&nbsp;&nbsp;<a href="houtai.html">后台登录</a>
+								<span>还没有帐号？</span><a href="regist.jsp">马上注册</a>&nbsp;&nbsp;<a href="houtai.jsp">后台登录</a>
 							</div>
 							
 						</form>

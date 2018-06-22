@@ -72,11 +72,11 @@
             </li><li>
             	<img src="images/1ed4f2fe326a627f0dd68acd10040e46.jpg" alt="考研路"/>
                 <ul><h3>考研路</h3><span>认准目标，始于足下。坚持不懈，方可成功。致考研路上的你。为考研学子打call，赢精致小礼品。</span></ul>
-                <p><a href="kaoyan.html">为考研加油</a></p>
+                <p><a href="kaoyan.jsp">为考研加油</a></p>
             </li><li>
             	<img src="images/798dc1b43cfe7dc38160d3c16271a0d3.jpg" alt="致大学，致毕业"/>
                 <ul><h3>每日签到</h3><span>留下你的足迹，走过一个完整的月份。每日签到就可以获得抽奖机会，奖品多多。</span></ul>
-                <p><a href="qiandao.html">我要签到</a></p>
+                <p><a href="qiaodao.jsp">我要签到</a></p>
             </li>        </ul>
     </div>
     <a id="a_l" class="arr"></a>
@@ -91,7 +91,7 @@
 </div>
 <div class="footer">
 	<div class="foot-nav">
-        <a href="404.html"> 谢 谢 合 作</a>|<a href="kefu.html"> 联 系 我 们</a>|<a href="404.html"> 加 入 我 们</a>|<a href="404.html"> 法 律 声 明</a>	</div>
+        <a href="404.html"> 谢 谢 合 作</a>|<a href="kefu.jsp"> 联 系 我 们</a>|<a href="404.html"> 加 入 我 们</a>|<a href="404.html"> 法 律 声 明</a>	</div>
     <div class="foot-copy">版本所有权校美好项目开发团队，不经同意擅自转载或者抄袭必定负法律责任。如有意见和改进可以联系我们。联系人：许磊</p>
     电话：15732105211 传真：xxxxxxx  地址：河北师范大学新校区软件学院   邮编：050000 </div>
 </div>

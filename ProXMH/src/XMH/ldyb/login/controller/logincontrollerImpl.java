@@ -17,7 +17,8 @@ public class logincontrollerImpl {
 	@RequestMapping("/addu")
 	public String addUser(loginuser u) {
 		loginserviceImpl.addUser(u);
-		return "dengandzhu";
+		System.out.println("注册成功");
+		return "dengandzhu.jsp";
 		
 	}
 	/* 登录操作 */
