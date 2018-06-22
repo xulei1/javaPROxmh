@@ -6,22 +6,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>个人信息完善页面</title>
 
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="../scripts/style.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="../scripts/script.js"></script>
 
 </head>
 
 <body>
 
 <dl class="formbox">
-	<form action="daohang.html" method="get">
+	<form action="#" method="get">
 		<dt>填写基本信息</dt>
-		<dd><input id="name" name="name" type="text" class="text" value="尊姓大名" /></dd>
-		<dd><input id="contact" name="contact" type="text" class="text" value="联系QQ或MSN" /></dd>
+		<dd><input id="name" name="truename" type="text" class="text" value="truename" /></dd>
+		<dd><input id="contact" name="contact" type="text" class="text" value="contant" /></dd>
 		<dd style="z-index: 2;">
 			<div id="btn_come_from_drop_down" class="select_normal"></div>
-			<input id="come_from" name="come_from" type="text" class="text" value="你来自哪里？" />
+			<input id="come_from" name="address" type="text" class="text" value="address" />
 			<ul id="come_from_drop_down" class="area">
 				<li class="active">北京</li>
 				<li>上海</li>
@@ -56,8 +56,8 @@
 			</ul>
 		</dd>
 		<dd>
-			<h2>就这样！</h2>
-			<div class="btn"><a href="daohang.html"><input type="submit" value="提交" /></a></div>
+			 <h2>就这样！</h2>
+			<div class="btn"><a href="daohang.html"> <input type="submit" value="提交" /></a></div>
 		</dd>
 	</form>
 </dl>

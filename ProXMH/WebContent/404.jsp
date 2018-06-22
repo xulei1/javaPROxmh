@@ -1,8 +1,16 @@
-<!doctype html>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<%
+	pageContext.setAttribute("APP_PATH", request.getContextPath());
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
 <head>
-<meta charset="utf-8">
-<title>404页面自动跳转</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>404错误网页</title>
+</head>
+<body>
 <style>
 *{margin:0;padding:0;outline:none;font-family:\5FAE\8F6F\96C5\9ED1,宋体;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none;cursor:default;font-weight:lighter;}
 .center{margin:0 auto;}

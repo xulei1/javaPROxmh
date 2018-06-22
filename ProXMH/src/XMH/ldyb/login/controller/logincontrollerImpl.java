@@ -1,12 +1,12 @@
-package login.controller;
+package XMH.ldyb.login.controller;
 
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import login.entity.User;
-import login.service.*;
+import XMH.ldyb.login.entity.loginuser;
+import XMH.ldyb.login.service.*;
 
 @Controller
 @RequestMapping("/user")
@@ -15,7 +15,7 @@ public class logincontrollerImpl {
 	private  loginserviceImpl loginserviceImpl;
 	/* 初步注册*/
 	@RequestMapping("/addu")
-	public String addUser(User u) {
+	public String addUser(loginuser u) {
 		loginserviceImpl.addUser(u);
 		return "dengandzhu";
 		
@@ -28,7 +28,7 @@ public class logincontrollerImpl {
 		if( loginserviceImpl.login(UserName, pawd)) {
 			 return "xinxi";
 		}else {
-			return "9999";
+			return "index";
 		}
 	}
 }

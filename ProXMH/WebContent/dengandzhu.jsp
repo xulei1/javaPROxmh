@@ -41,7 +41,7 @@
 							<div id="v_container" style="width: 200px;height: 60px; margin:0 auto;"></div>
 							<div style="width:200px;  height:50px; margin:0 auto;">
 								<input type="text" id="code_input" value="" /><button id="my_button">验证</button>
-
+							
 	                              <script src="js/gVerify.js"></script>
 	                             <script>
 		                       var verifyCode = new GVerify("v_container");
@@ -59,11 +59,12 @@
 	                        
 							</div>
 							<div class="form_btn">
-								 <button type="button">登录</button> 
+								 <button type="submit">登录</button> 
 							</div>
 							<div class="form_reg_btn">
 								<span>还没有帐号？</span><a href="regist.jsp">马上注册</a>&nbsp;&nbsp;<a href="houtai.html">后台登录</a>
 							</div>
+							
 						</form>
 						<div class="other_login">
 							<div class="left other_left">

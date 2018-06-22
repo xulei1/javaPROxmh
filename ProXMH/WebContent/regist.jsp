@@ -24,25 +24,21 @@
 						<div class="login_title">
 							注册
 						</div>
-						<form action="${APP_PATH}/user/addf" method="post">
+						<form action="user/addu" method="post">
 							
 							<div class="form_text_ipt">
-								<input name="UserName" type="text" placeholder="手机号/邮箱" value="${UserName}">
+								<input name="UserName" type="text" placeholder="手机号/邮箱" value="${u.UserName}">
 							</div>
 							<div class="ececk_warning"><span>账号不能为空</span></div>
 							<div class="form_text_ipt">
-								<input name="pawd" type="password" placeholder="密码" value="${pawd}">
+								<input name="pawd" type="password" placeholder="密码" value="${u.pawd}">
 							</div>
 							<div class="ececk_warning"><span>密码不能为空</span></div>
 							<div class="form_text_ipt">
-								<input name="repassword" type="password" placeholder="重复密码">
+								<input name="name" type="type" placeholder="姓名"  value="${u.name }">
 							</div>
-							<div class="ececk_warning"><span>密码不能为空</span></div>
-							<div class="form_text_ipt">
-								<input name="code" type="text" placeholder="验证码">
-							</div>
-							<div class="ececk_warning"><span>请输入正确的验证码</span></div>
-							
+							<div class="ececk_warning"><span>姓名不能为空</span></div>
+						
 							<div class="form_btn">
 								<button type="submit" value="提交">注册</button>
 							</div>
