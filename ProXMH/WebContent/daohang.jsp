@@ -7,19 +7,19 @@
 <meta name="Keywords" content="">
 <meta name="Description" content="">
 <title>校美好首页展示</title>
-<link href="css/style-daohang.css" rel="stylesheet" type="text/css" />
-<link href="css/index.css" rel="stylesheet" type="text/css" />
-<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+<link href="../css/style-daohang.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+<link href="../css/flexslider.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<script src="js/jquery-1.8.3.min.js"></script> 
-<script src="js/jquery.flexslider-min.js"></script>
+<script src="../js/jquery-1.8.3.min.js"></script> 
+<script src="../js/jquery.flexslider-min.js"></script>
 </head>
 
 <body>
 <div class="header_wrap ah">
     <div class="wrap header">
         <ul class="logo">
-            <a href="#"><img src="images/logo.png" alt="校美好项目"></a>
+            <a href="#"><img src="../images/logo.png" alt="校美好项目"></a>
         </ul>
         <ul class="nav">
         	<li><a href="#">首页</a></li>
@@ -44,7 +44,7 @@
         <ul class="mbi_nav">
             <a href="javascript:void(0)"><span></span><span></span><span></span><span></span></a>
         </ul>
-        <ul class="language"><a href="#" style="display:none;">中文版</a> <span style="display:none;">|</span> <a href="#" style="display:none;">ENGLISH</a> <span style="display:none;">|</span> <a href="#">诚邀合作</a>
+        <ul class="language"><a href="#" style="display:none;">中文版</a> <span style="display:none;">|</span> <a href="#" style="display:none;">ENGLISH</a> <span style="display:none;">|</span> <a href="../xinxi.jsp">完善个人信息</a>
         <span>|</span> <a href="#">加入我们</a>         </ul>
     </div>
 </div>
@@ -57,26 +57,26 @@
 	<div class="cnt">
         <ul>
         <li>
-            	<img src="images/5d52d7bf775b36b8479b743a5a824f19.jpg" alt="青春不散场，校园小商城"/>
+            	<img src="../images/5d52d7bf775b36b8479b743a5a824f19.jpg" alt="青春不散场，校园小商城"/>
                 <ul><h3>校园商城</h3><span>青春是一场有去无回的单人旅行的，旅行是单人的，但是一路上会碰到许许多多的小伙伴。你的小伙伴就在这里，快来约他们一起购物把。</span></ul>
-                <p><a href="shopIndex.jsp">进入模块</a></p>
+                <p><a href="../shopIndex.jsp">进入模块</a></p>
             </li><li>
-            	<img src="images/ed472ad6636763e22da62194b119ef1a.jpg" alt="话题讨论"/>
+            	<img src="../images/ed472ad6636763e22da62194b119ef1a.jpg" alt="话题讨论"/>
                 <ul><h3>话题讨论</h3><span>这里有让你感兴趣的话题，这里有你喜欢讨论模块，如果你有什么想说的，有什么想表达的。都可以在这里尽情表达，我们还会对讨论活跃的同学进行奖励，赶紧来参加吧</span></ul>
-                <p><a href="#">进入模块</a></p>
+                <p><a href="../index.jsp">进入模块</a></p>
             </li><li>
-            	<img src="images/4a9b4600a20d4aacaa16aee0bc4adc85.jpg" alt="失物招领"/>
+            	<img src="../images/4a9b4600a20d4aacaa16aee0bc4adc85.jpg" alt="失物招领"/>
                 <ul><h3>失物招领</h3><span>对于丢东西很着急的你，这无疑是个对你帮助很大的模块。在这里你可以方便快捷的查询你丢失的位置和实名准确的确认你丢的东西。
 </span></ul>
-                <p><a href="shiwuZL.html">进入模块</a></p>
+                <p><a href="../index-swzl.jsp">进入模块</a></p>
             </li><li>
-            	<img src="images/1ed4f2fe326a627f0dd68acd10040e46.jpg" alt="考研路"/>
+            	<img src="../images/1ed4f2fe326a627f0dd68acd10040e46.jpg" alt="考研路"/>
                 <ul><h3>考研路</h3><span>认准目标，始于足下。坚持不懈，方可成功。致考研路上的你。为考研学子打call，赢精致小礼品。</span></ul>
-                <p><a href="kaoyan.jsp">为考研加油</a></p>
+                <p><a href="../kaoyan.jsp">为考研加油</a></p>
             </li><li>
-            	<img src="images/798dc1b43cfe7dc38160d3c16271a0d3.jpg" alt="致大学，致毕业"/>
+            	<img src="../images/798dc1b43cfe7dc38160d3c16271a0d3.jpg" alt="致大学，致毕业"/>
                 <ul><h3>每日签到</h3><span>留下你的足迹，走过一个完整的月份。每日签到就可以获得抽奖机会，奖品多多。</span></ul>
-                <p><a href="qiaodao.jsp">我要签到</a></p>
+                <p><a href="../qiaodao.jsp">我要签到</a></p>
             </li>        </ul>
     </div>
     <a id="a_l" class="arr"></a>
@@ -86,8 +86,8 @@
 
 <div id="slider1" class="slider ah">
     <ul id="pic_list1" class="pic_list pic2">
-    <li><a class="pic" style="background:url(images/5d52d7bf775b36b8479b743a5a824f19.jpg) no-repeat center; background-size:cover;"></a><a title="校园商城" class="txt"><b>校园商城</b><span>货真价实，礼品相送，惊喜不断。</span></a></li><li><a class="pic" style="background:url(images/ed472ad6636763e22da62194b119ef1a.jpg) no-repeat center; background-size:cover;"></a><a title="话题讨论" class="txt"><b>话题讨论</b><span>讨论你们喜欢的话题</span></a></li><li><a class="pic" style="background:url(images/4a9b4600a20d4aacaa16aee0bc4adc85.jpg) no-repeat center; background-size:cover;"></a><a title="失物招领" class="txt"><b>失物招领</b><span>帮助你方便、快捷的找到你丢失的东西。
-</span></a></li><li><a class="pic" style="background:url(images/1ed4f2fe326a627f0dd68acd10040e46.jpg) no-repeat center; background-size:cover;"></a><a title="考研路" class="txt"><b>考研</b><span>为考研加油</span></a></li><li><a class="pic" style="background:url(images/798dc1b43cfe7dc38160d3c16271a0d3.jpg) no-repeat center; background-size:cover;"></a><a title="每日签到" class="txt"><b>每日签到</b><span>签到可以赢取小礼物，还有专属皮肤哦</span></a></li>    </ul>
+    <li><a class="pic" style="background:url(../images/5d52d7bf775b36b8479b743a5a824f19.jpg) no-repeat center; background-size:cover;"></a><a title="校园商城" class="txt"><b>校园商城</b><span>货真价实，礼品相送，惊喜不断。</span></a></li><li><a class="pic" style="background:url(../images/ed472ad6636763e22da62194b119ef1a.jpg) no-repeat center; background-size:cover;"></a><a title="话题讨论" class="txt"><b>话题讨论</b><span>讨论你们喜欢的话题</span></a></li><li><a class="pic" style="background:url(../images/4a9b4600a20d4aacaa16aee0bc4adc85.jpg) no-repeat center; background-size:cover;"></a><a title="失物招领" class="txt"><b>失物招领</b><span>帮助你方便、快捷的找到你丢失的东西。
+</span></a></li><li><a class="pic" style="background:url(../images/1ed4f2fe326a627f0dd68acd10040e46.jpg) no-repeat center; background-size:cover;"></a><a title="考研路" class="txt"><b>考研</b><span>为考研加油</span></a></li><li><a class="pic" style="background:url(../images/798dc1b43cfe7dc38160d3c16271a0d3.jpg) no-repeat center; background-size:cover;"></a><a title="每日签到" class="txt"><b>每日签到</b><span>签到可以赢取小礼物，还有专属皮肤哦</span></a></li>    </ul>
 </div>
 <div class="footer">
 	<div class="foot-nav">

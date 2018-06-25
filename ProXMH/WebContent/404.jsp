@@ -28,7 +28,7 @@ p{color:#fff;margin-top:40px;font-size:24px;}
 		document.getElementById("num").innerHTML=num;
 		if(num<0){
 			document.getElementById("num").innerHTML=0;
-			location.href="dengandzhu.jsp";
+			location.href="demo.jsp";
 			}
 		}
 	setInterval("redirect()", 1000);

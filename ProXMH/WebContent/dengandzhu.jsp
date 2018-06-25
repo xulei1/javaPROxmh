@@ -73,7 +73,7 @@
 							<div class="right other_right">
 								<a href="#">QQ登录</a>
 								<a href="#">微信登录</a>
-								<a href="404.html">其它登录</a>
+								<a href="404.jsp">其它登录</a>
 							</div>
 						</div>
 					</div>

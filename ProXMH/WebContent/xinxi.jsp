@@ -6,16 +6,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>个人信息完善页面</title>
 
-<link href="../scripts/style.css" rel="stylesheet" type="text/css" />
+<link href="scripts/style.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="../scripts/script.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
 
 </head>
 
 <body>
 
 <dl class="formbox">
-	<form action="#" method="get">
+	<form action="user/daohang" method="get">
 		<dt>填写基本信息</dt>
 		<dd><input id="name" name="truename" type="text" class="text" value="truename" /></dd>
 		<dd><input id="contact" name="contact" type="text" class="text" value="contant" /></dd>
@@ -57,7 +57,7 @@
 		</dd>
 		<dd>
 			 <h2>就这样！</h2>
-			<div class="btn"><a href="daohang.jsp"> <input type="button" value="提交" /></a></div>
+			<div class="btn"> <input type="submit" value="提交" /></div>
 		</dd>
 	</form>
 </dl>
