@@ -68,7 +68,7 @@
 <div class="fly-panel fly-column">
   <div class="layui-container">
     <ul class="layui-clear">
-      <li class="layui-hide-xs"><a href="/">首页</a></li> 
+      <li class="layui-hide-xs"><a href="../daohang.jsp">首页</a></li> 
       <li class="layui-this"><a href="">提问</a></li> 
       <li><a href="">分享<span class="layui-badge-dot"></span></a></li> 
       <li><a href="">讨论</a></li> 

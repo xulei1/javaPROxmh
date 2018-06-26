@@ -1,6 +1,7 @@
 package XMH.ldyb.login.service;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -23,5 +24,9 @@ public class loginserviceImpl {
 	public boolean login(String UserName,String pawd) {
 		System.out.println("dao2");
 		return logindaoImpl.login(UserName, pawd);
+	}
+	public loginuser loginUser(String UserName, String pawd ){
+		loginuser lu=this.logindaoImpl.findById(UserName);
+		return lu;
 	}
 }

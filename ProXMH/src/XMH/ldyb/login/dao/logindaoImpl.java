@@ -29,12 +29,18 @@ public class logindaoImpl {
 	public boolean login(String UserName,String pawd) {
 		System.out.println("dao1");
 		String sql = "from loginuser where UserName='"+UserName+"' and pawd='"+pawd+"'";
-		Query q =  this.sessionfactory.getCurrentSession().createQuery(sql);
+		Query q1 =  this.sessionfactory.getCurrentSession().createQuery(sql);
 		
 		System.out.println("dao1");
-		List list =q.list();
+		List list =q1.list();
 		return list.size()>0? true:false;
 		
+	}
+	public loginuser findById(String UserName){
+		Query q =  this.sessionfactory.getCurrentSession().createQuery("from loginuser where UserName=?");
+		q.setString(0, UserName);
+		loginuser u = (loginuser) q.uniqueResult();
+		return u;
 	}
 	
 }

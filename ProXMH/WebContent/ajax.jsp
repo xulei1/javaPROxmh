@@ -13,7 +13,7 @@
                 <h2> ${tie.t_data}</h2>
                 <div class="grid">
                     <div class="preview">
-                        <a href="#"><img src="${tie.t_image}" alt=""></a>
+                        <a href="#"><img src="/upload/touxian.jpg" alt=""></a>
                         <div class="data">
                             <h3><a href="#">赏金:${tie.money}</a></h3>
                         </div>

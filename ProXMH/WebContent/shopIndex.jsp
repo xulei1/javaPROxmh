@@ -83,7 +83,7 @@
             <div class="widget">
              <img alt="" src="${ctx }/images-shop/touxian.jpg" class="myimg">   
              <ul class="mine">
-             <li><a href="">${lu.UserName}</a></li>
+             <li><a href="">${lu.pawd}</a></li>
              <li><a href="">这个人很懒，啥都没写</a></li>
              <li><a href="">我的足迹</a></li>
              <li><a href="">我要发布</a></li>
