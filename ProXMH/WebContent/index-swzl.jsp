@@ -345,7 +345,7 @@ function fabu()
                 <div class="clearFloat"></div>
             </div>
             <div class="more">
-                <a   href="javascript:showDialog('${tie.tel}');"  >联系我</a>
+                <a   href="xiaotiankuang.jsp"  >联系我</a>
             </div>
             </c:forEach>
           
@@ -398,7 +398,7 @@ function fabu()
             <div class="wrap">
                 <div class="about">
                     <div class="title">About Us</div>
-                    <p>Faworki bonbon cupcake apple pie halvah. Topping gummies faworki sweet roll drag锟絜 chocolate bar tootsie roll gummies marzipan. Chocolate toffee marzipan marzipan cookie bonbon. Danish candy topping marshmallow faworki tiramisu bear claw applicake cupcake.<a href="index.html">read more &raquo;</a></p>
+                    <p>校美好失物招领页面展示<a href="index.html">read more &raquo;</a></p>
                 </div>
                 <ul>
                     <li class="title">Menu Name</li>
@@ -428,7 +428,7 @@ function fabu()
                     <li><a href="#">About</a></li>
                 </ul>
                 <div class="clearFloat"></div>
-                <div class="copy"><p>&copy; 2012 All Rights Reserved | Designed by - <a href="http://w3layouts.com">W3Layouts.com</a></p></div>
+                <div class="copy"><p>&copy; 2018年校美好工作组全体制作 <a href="http://w3layouts.com">W3Layouts.com</a></p></div>
             </div>
     </footer>
 

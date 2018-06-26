@@ -50,7 +50,7 @@ public class GoodsDaoImpl {
 	}
 	
 	public void updateScore(Integer i,Integer id) {
-		Query q = this.sessionFactory.getCurrentSession().createQuery("update User u set u.score=? where u.id=?");
+		Query q = this.sessionFactory.getCurrentSession().createQuery("update loginuser u set u.score=? where u.id=?");
 		q.setInteger(0, i);
 		q.setInteger(1, id);
 		q.executeUpdate();

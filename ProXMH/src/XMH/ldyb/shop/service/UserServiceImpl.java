@@ -5,6 +5,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import XMH.ldyb.login.entity.loginuser;
 import XMH.ldyb.shop.dao.UserLoginDaoImpl;
 import XMH.ldyb.shop.entity.User;
 
@@ -16,10 +17,10 @@ public class UserServiceImpl {
 	
 	@Resource
 	private UserLoginDaoImpl userLoginDaoImpl;
-	public User login(String name, String password){
-		User lu=this.userLoginDaoImpl.findById(name);
+	public loginuser login(String name, String password){
+		loginuser lu=this.userLoginDaoImpl.findById(name);
 		if(lu!=null){
-			if(lu.getUser_password().equals(password)){
+			if(lu.getPawd().equals(password)){
 				return lu;
 			}else{
 				return null;

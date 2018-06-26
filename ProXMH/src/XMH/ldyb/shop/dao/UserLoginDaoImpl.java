@@ -6,6 +6,7 @@ import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 
+import XMH.ldyb.login.entity.loginuser;
 import XMH.ldyb.shop.entity.User;
 
 
@@ -16,10 +17,10 @@ public class UserLoginDaoImpl {
 	@Resource
 	private SessionFactory sessionFactory;
 	
-	public User findById(String name){
-		Query q =  this.sessionFactory.getCurrentSession().createQuery("from User where user_name=?");
+	public loginuser findById(String name){
+		Query q =  this.sessionFactory.getCurrentSession().createQuery("from loginuser where UserName=?");
 		q.setString(0, name);
-		User u = (User) q.uniqueResult();
+		loginuser u = (loginuser) q.uniqueResult();
 		return u;
 	}
 }

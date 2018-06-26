@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import XMH.ldyb.shop.service.UserServiceImpl;
+import XMH.ldyb.login.entity.loginuser;
 import XMH.ldyb.shop.entity.User;
 
 
@@ -24,10 +25,10 @@ public class UserController {
 	
 	/**�û���½ **/
 	@RequestMapping(value="/login",method=RequestMethod.POST)
-	public String login(@RequestParam("user_name") String name,
-			@RequestParam("user_password") String pwd,
+	public String login(@RequestParam("UserName") String name,
+			@RequestParam("pawd") String pwd,
 			HttpSession session,Model model){
-		User lu=this.userServiceImpl.login(name, pwd);
+		loginuser lu=this.userServiceImpl.login(name, pwd);
 		if(lu!=null){
 			System.out.println(name+"----------------------------");
 			model.addAttribute("name",name);
