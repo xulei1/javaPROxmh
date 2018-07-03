@@ -16,12 +16,26 @@
 	每日签到可以领取现金红包，领取积分，用积分可以兑换许多自己需要的东西和商品。现金红包可以直接提现。心动不如行动赶紧来吧。</br>
 成员介绍</br>
 许磊（组长，导航模块设计 文档编写审查  ppt制作 ）</br>
+ 邮箱：799873165@qq.com </br>
+ GitHub：https://github.com/xulei1 </br>
 杨晨星（副组长 项目设计 失物招领模块总制作）</br>
+ 邮箱：1318375942@qq.com </br>
+ GitHub：https://github.com/yangchenxing </br>
 樊卫宽（话题讨论代码编写）</br>
+ 邮箱：2530442804@qq.com </br>
+ GitHub：https://github.com/fanweikan </br>
 张大鹏（话题讨论前端网页制作）</br>
+ 邮箱：794241087@qq.com </br>
+ GitHub：https://github.com/zhangdapeng </br>
 郭佳兴（宿舍商城项目前端设计 项目实训日记编写  ）</br>
+邮箱：913550462@qq.com </br>
+ GitHub：https://github.com/guojiaxing </br>
 方昱程（宿舍商城代码编写）</br>
+ 邮箱：1290121967@qq.com </br>
+ GitHub：https://github.com/fangyucheng</br>
 补双彦（为考研加油 每日签到模块制作）</br>
+ 邮箱：1097236153@qq.com </br>
+ GitHub：https://github.com/bushuagyan</br>
 项目截图</br>
 ![image](https://github.com/xulei1/JAVA_XSH/blob/master/%E6%A0%A1%E7%BE%8E%E5%A5%BD%E6%96%87%E6%A1%A3/%E4%B8%BB%E9%A1%B5UI%E5%9B%BE/1.png)</br>
 ![image](https://github.com/xulei1/JAVA_XSH/blob/master/%E6%A0%A1%E7%BE%8E%E5%A5%BD%E6%96%87%E6%A1%A3/%E4%B8%BB%E9%A1%B5UI%E5%9B%BE/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.png)</br>
